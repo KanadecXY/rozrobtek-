@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <title>Rozrobtek – Портфоліо</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 16px;
+      margin-top: 16px;
+    }
+    .gallery img {
+      width: 100%;
+      height: auto;
+      border-radius: 8px;
+      border: 1px solid #ccc;
+    }
+    section {
+      margin-bottom: 48px;
+    }
+    h1 {
+      margin-bottom: 24px;
+    }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <a href="index.html">Головна</a>
+    <a href="electronics.html">Розробка електроніки</a>
+    <a href="pcbs.html">Виготовлення плат</a>
+    <a href="3dprint.html">3D-друк</a>
+    <a href="portfolio.html">Портфоліо</a>
+    <a href="contact.html">Контакти</a>
+  </nav>
+
+  <main>
+    <h1>Портфоліо</h1>
+
+    <section>
+      <h2>Проєкти під ключ</h2>
+      <p>Повний цикл реалізації — від схеми, прошивки та плати до 3D-корпуса та протестованого зразка.</p>
+
+      <article>
+        <h3>Детектор FPV</h3>
+        <p>Компактний прилад для виявлення сигналів від FPV-дронів у діапазонах 1.2 і 5.8 ГГц. Має дисплей для індикації, автономне живлення, ідеально підходить для використання на передовій. Повний цикл — від схеми до корпусу.</p>
+        <div class="gallery">
+          <img src="img/fpv1.jpg" alt="Детектор FPV – фото 1">
+          <img src="img/fpv2.jpg" alt="Детектор FPV – фото 2">
+        </div>
+      </article>
+
+      <article>
+        <h3>Пристрій під проєкт DSTIKE Wi-Fi Deauther</h3>
+        <p>Мікроконтролерний пристрій з OLED-дисплеєм та кнопками, побудований на базі ESP8266. Сумісний із прошивками Deauther для тестування Wi-Fi мереж, аудитів безпеки та демонстрацій. Власний дизайн плати та корпусу.</p>
+        <div class="gallery">
+          <img src="img/deauther1.jpg" alt="Deauther – фото 1">
+        </div>
+      </article>
+
+      <article>
+        <h3>ELRS TX модуль</h3>
+        <p>Передавач ExpressLRS у форматі JR-модуля для передавачів пультів радіокерування. Власна плата, антена, охолодження та розробка корпуса. Можлива кастомізація під різні конфігурації потужності та частот.</p>
+        <div class="gallery">
+          <img src="img/elrs1.jpg" alt="ELRS модуль – фото 1">
+        </div>
+      </article>
+
+      <article>
+        <h3>ДБЖ 5А на 5V / 9V / 12V</h3>
+        <p>Універсальний модуль джерела безперебійного живлення на основі Li-Ion батарей. Автоматичне перемикання між живленням та акумулятором. Видає стабільну напругу 5V, 9V або 12V при навантаженні до 5А. Компактна плата з пасивним охолодженням.</p>
+        <div class="gallery">
+          <img src="img/ups1.jpg" alt="ДБЖ – фото 1">
+        </div>
+      </article>
+    </section>
+
+    <section>
+      <h2>Розводка плат</h2>
+      <p>Приклади розведення друкованих плат — уся топологія проєктувалась нашими інженерами під замовлення або внутрішні потреби.</p>
+      <div class="gallery">
+        <img src="img/pcb1.jpg" alt="Розводка 1">
+        <img src="img/pcb2.jpg" alt="Розводка 2">
+        <img src="img/pcb3.jpg" alt="Розводка 3">
+      </div>
+    </section>
+
+    <section>
+      <h2>Плати хімічним травленням і фрезеруванням</h2>
+      <p>Швидке виготовлення макетів плат — вручну або на фрезерному станку. Добре підходить для тестування або малих серій.</p>
+      <div class="gallery">
+        <img src="img/etch1.jpg" alt="Плата травлення 1">
+        <img src="img/etch2.jpg" alt="Плата фрезерування 2">
+      </div>
+    </section>
+
+    <section>
+      <h2>3D-друк</h2>
+      <p>Реальні приклади надрукованих корпусів, утримувачів, елементів кріплення та серійних деталей. Все виготовлено на нашій фермі.</p>
+      <div class="gallery">
+        <img src="img/3d1.jpg" alt="3D-друк 1">
+        <img src="img/3d2.jpg" alt="3D-друк 2">
+        <img src="img/3d3.jpg" alt="3D-друк 3">
+      </div>
+    </section>
+
+  </main>
+
+</body>
+</html>
